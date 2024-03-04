@@ -1,0 +1,531 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@effect/cli': latest
+  '@effect/experimental': ^0.9.13
+  '@effect/opentelemetry': latest
+  '@effect/platform': latest
+  '@effect/platform-browser': latest
+  '@effect/platform-bun': latest
+  '@effect/platform-node': latest
+  '@effect/platform-node-shared': latest
+  '@effect/printer': latest
+  '@effect/printer-ansi': latest
+  '@effect/rpc': latest
+  '@effect/rpc-http': latest
+  '@effect/rpc-http-node': latest
+  '@effect/rpc-nextjs': latest
+  '@effect/rpc-workers': latest
+  '@effect/schema': latest
+  '@effect/typeclass': latest
+  '@opentelemetry/sdk-trace-base': ^1.21.0
+  '@types/bun': latest
+  chalk: ^5.3.0
+  effect: latest
+  meow: ^13.1.0
+  ws: ^8.16.0
+
+dependencies:
+  '@effect/cli': 0.34.2_3ewjnx42yx34i65gupietka5dm
+  '@effect/experimental': 0.9.19_74f4b7ketlp4kxfsf6sgcuixvi
+  '@effect/opentelemetry': 0.31.10_j6xi5nczfh724zd5fmx67nhqfe
+  '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+  '@effect/platform-browser': 0.30.9_qptvtggmavnx32si3qds3qhnq4
+  '@effect/platform-bun': 0.32.9_qptvtggmavnx32si3qds3qhnq4
+  '@effect/platform-node': 0.44.10_qptvtggmavnx32si3qds3qhnq4
+  '@effect/platform-node-shared': 0.2.2_qptvtggmavnx32si3qds3qhnq4
+  '@effect/printer': 0.31.9_2ndwgfmhk4hauoqztwuokikwja
+  '@effect/printer-ansi': 0.32.9_2ndwgfmhk4hauoqztwuokikwja
+  '@effect/rpc': 0.27.17_mcpil35ckndqlsdekfzd5iyb6e
+  '@effect/rpc-http': 0.26.17_mcpil35ckndqlsdekfzd5iyb6e
+  '@effect/rpc-http-node': 0.25.25_mcpil35ckndqlsdekfzd5iyb6e
+  '@effect/rpc-nextjs': 0.25.25_mcpil35ckndqlsdekfzd5iyb6e
+  '@effect/rpc-workers': 0.25.25_mcpil35ckndqlsdekfzd5iyb6e
+  '@effect/schema': 0.63.1_effect@2.4.0
+  '@effect/typeclass': 0.23.0_effect@2.4.0
+  '@opentelemetry/sdk-trace-base': 1.21.0
+  chalk: 5.3.0
+  effect: 2.4.0
+  meow: 13.2.0
+  ws: 8.16.0
+
+devDependencies:
+  '@types/bun': 1.0.8
+
+packages:
+
+  /@effect/cli/0.34.2_3ewjnx42yx34i65gupietka5dm:
+    resolution: {integrity: sha512-ms9HAorWBVJPyhJUFNXyywJ0tpw723OVRgjLNf3VH15ybAx3JA6FwMHucvPTragd1uLyKGcg/TQBQaK4/+Q6iA==}
+    peerDependencies:
+      '@effect/platform': ^0.46.2
+      '@effect/printer': ^0.31.9
+      '@effect/printer-ansi': ^0.32.9
+      '@effect/schema': ^0.63.1
+      effect: ^2.4.0
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      '@effect/printer': 0.31.9_2ndwgfmhk4hauoqztwuokikwja
+      '@effect/printer-ansi': 0.32.9_2ndwgfmhk4hauoqztwuokikwja
+      '@effect/schema': 0.63.1_effect@2.4.0
+      effect: 2.4.0
+      ini: 4.1.1
+      toml: 3.0.0
+      yaml: 2.4.0
+    dev: false
+
+  /@effect/experimental/0.9.19_74f4b7ketlp4kxfsf6sgcuixvi:
+    resolution: {integrity: sha512-Lt/5Q14D/M/LwIXrmMiwhx/rTGaMMYsvJzkITjQGiv/9H2LXp6Likj+nRZrPDztPrmrLKG7UY64RkYDHXG6Wfw==}
+    peerDependencies:
+      '@effect/platform': ^0.46.2
+      '@effect/platform-node': ^0.44.10
+      '@effect/schema': ^0.63.1
+      effect: ^2.4.0
+      lmdb: ^2.9.2
+      ws: ^8.14
+    peerDependenciesMeta:
+      '@effect/platform-node':
+        optional: true
+      lmdb:
+        optional: true
+      ws:
+        optional: true
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      '@effect/platform-node': 0.44.10_qptvtggmavnx32si3qds3qhnq4
+      '@effect/schema': 0.63.1_effect@2.4.0
+      effect: 2.4.0
+      isomorphic-ws: 5.0.0_ws@8.16.0
+      msgpackr: 1.10.1
+      ws: 8.16.0
+    dev: false
+
+  /@effect/opentelemetry/0.31.10_j6xi5nczfh724zd5fmx67nhqfe:
+    resolution: {integrity: sha512-n9sOsFTiQYZDHYD6sa3pvYPMktygIbGft4LRf+GXFpjk1r895inYboHhSDha5Q9SKs5pZtEaVMNGxOzhaD+djw==}
+    peerDependencies:
+      '@opentelemetry/api': ^1.6
+      '@opentelemetry/resources': ^1.17
+      '@opentelemetry/sdk-metrics': ^1.17
+      '@opentelemetry/sdk-trace-base': ^1.17
+      '@opentelemetry/sdk-trace-node': ^1.17
+      '@opentelemetry/sdk-trace-web': ^1.17
+      '@opentelemetry/semantic-conventions': ^1.17
+      effect: ^2.4.0
+    peerDependenciesMeta:
+      '@opentelemetry/sdk-metrics':
+        optional: true
+      '@opentelemetry/sdk-trace-base':
+        optional: true
+      '@opentelemetry/sdk-trace-node':
+        optional: true
+      '@opentelemetry/sdk-trace-web':
+        optional: true
+    dependencies:
+      '@opentelemetry/sdk-trace-base': 1.21.0
+      effect: 2.4.0
+    dev: false
+
+  /@effect/platform-browser/0.30.9_qptvtggmavnx32si3qds3qhnq4:
+    resolution: {integrity: sha512-vDRO7Xgb+GI78kwWnCwbLuFNoTB4dWiOWg2TrJqnuJP7mDgmyxL82SSYbQdyCGFBhCGHa7gU4WgAmT+so/KGbg==}
+    peerDependencies:
+      '@effect/platform': ^0.46.2
+      effect: ^2.4.0
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      effect: 2.4.0
+      multipasta: 0.1.21
+    dev: false
+
+  /@effect/platform-bun/0.32.9_qptvtggmavnx32si3qds3qhnq4:
+    resolution: {integrity: sha512-LcE0SI3v+fEhDa5prcvhKl/9+uxpKvhoF+K+LE4zaRhZD1rTwbDA3JQNZBhnmQ6yFLdnmpFZh11Ea1cyYOlmZw==}
+    peerDependencies:
+      '@effect/platform': ^0.46.2
+      effect: ^2.4.0
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      '@effect/platform-node-shared': 0.2.2_qptvtggmavnx32si3qds3qhnq4
+      effect: 2.4.0
+    dev: false
+
+  /@effect/platform-node-shared/0.2.2_qptvtggmavnx32si3qds3qhnq4:
+    resolution: {integrity: sha512-eybC46ZLOO1zVZWJfwanzkcGylRatATS5ohRnFlFKIKKl0yYC/BboaUAw1arMBIX6tfOBnFuBlvifdTwTezXsQ==}
+    peerDependencies:
+      '@effect/platform': ^0.46.2
+      effect: ^2.4.0
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      effect: 2.4.0
+      multipasta: 0.1.21
+    dev: false
+
+  /@effect/platform-node/0.44.10_qptvtggmavnx32si3qds3qhnq4:
+    resolution: {integrity: sha512-U+VGDXosEMNnc27m5mUrINGSpCfhYVoyFJW+3gt2tFeookg5SIr2nVQeo+JrAmOqebVwjLExLuS6Ts/Sce4Aag==}
+    peerDependencies:
+      '@effect/platform': ^0.46.2
+      effect: ^2.4.0
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      '@effect/platform-node-shared': 0.2.2_qptvtggmavnx32si3qds3qhnq4
+      effect: 2.4.0
+      mime: 3.0.0
+    dev: false
+
+  /@effect/platform/0.46.2_7p7syks3dfg4tytifztovdrqnq:
+    resolution: {integrity: sha512-DR/YBFxT7Ds7+U2/DeDupOqzYe6/3OJfRfDa5Ugne2Z/IHSxjYQ8nHxka4p4s19/SqWmT3ESWGyyK50rm1p5hQ==}
+    peerDependencies:
+      '@effect/schema': ^0.63.1
+      effect: ^2.4.0
+    dependencies:
+      '@effect/schema': 0.63.1_effect@2.4.0
+      effect: 2.4.0
+      find-my-way-ts: 0.1.1
+      multipasta: 0.1.21
+      path-browserify: 1.0.1
+    dev: false
+
+  /@effect/printer-ansi/0.32.9_2ndwgfmhk4hauoqztwuokikwja:
+    resolution: {integrity: sha512-EJiS07ASmc6c5uPIjiDXOJYXI2pda1L9XQr6FajUgJOGPdWGopYXtURN5oDiy9sScy6E6D6ct0NuxqlIBlPW/A==}
+    peerDependencies:
+      '@effect/typeclass': ^0.23.0
+      effect: ^2.4.0
+    dependencies:
+      '@effect/printer': 0.31.9_2ndwgfmhk4hauoqztwuokikwja
+      '@effect/typeclass': 0.23.0_effect@2.4.0
+      effect: 2.4.0
+    dev: false
+
+  /@effect/printer/0.31.9_2ndwgfmhk4hauoqztwuokikwja:
+    resolution: {integrity: sha512-3vK34sHWfRqrr8g24NxO+4Fl5A/MvUZ+6QmITsgdzz+N4VAXSxarMMFmBpnnK1vzINfDUFHV9T28+WI7rv10Aw==}
+    peerDependencies:
+      '@effect/typeclass': ^0.23.0
+      effect: ^2.4.0
+    dependencies:
+      '@effect/typeclass': 0.23.0_effect@2.4.0
+      effect: 2.4.0
+    dev: false
+
+  /@effect/rpc-http-node/0.25.25_mcpil35ckndqlsdekfzd5iyb6e:
+    resolution: {integrity: sha512-gvBoN5fTMCV4prP6YQMie4tcbtyJjILxSD9XLDsN5KyX3LA7gLfhWErMkLjGhLU96cwiXE03BIhpFAoYBcDcUw==}
+    peerDependencies:
+      '@effect/platform': ^0.43.11
+      effect: ^2.2.5
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      '@effect/rpc': 0.26.18_7p7syks3dfg4tytifztovdrqnq
+      '@effect/rpc-http': 0.25.25_mcpil35ckndqlsdekfzd5iyb6e
+      effect: 2.4.0
+    transitivePeerDependencies:
+      - '@effect/schema'
+    dev: false
+
+  /@effect/rpc-http/0.25.25_mcpil35ckndqlsdekfzd5iyb6e:
+    resolution: {integrity: sha512-D0WW+ckhcmj0Dr0kgSBTcqgJ6yUdtgqYj+A6SO8WcjWVy/97mhwncEusd5UFexqivMPJuAEO71+EUuMKara9aw==}
+    peerDependencies:
+      '@effect/platform': ^0.43.11
+      '@effect/schema': ^0.61.7
+      effect: ^2.2.5
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      '@effect/rpc': 0.26.18_7p7syks3dfg4tytifztovdrqnq
+      '@effect/schema': 0.63.1_effect@2.4.0
+      effect: 2.4.0
+    dev: false
+
+  /@effect/rpc-http/0.26.17_mcpil35ckndqlsdekfzd5iyb6e:
+    resolution: {integrity: sha512-Ugvq9F1/YgMemKivRRyHyNHUl99wExmBQItf0dVkinDHbAHtdbD/yqbBl8RtjiYlQjIk/tLyuafvbbLrRiwGIQ==}
+    peerDependencies:
+      '@effect/platform': ^0.46.2
+      '@effect/schema': ^0.63.1
+      effect: ^2.4.0
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      '@effect/rpc': 0.27.17_mcpil35ckndqlsdekfzd5iyb6e
+      '@effect/schema': 0.63.1_effect@2.4.0
+      effect: 2.4.0
+    dev: false
+
+  /@effect/rpc-nextjs/0.25.25_mcpil35ckndqlsdekfzd5iyb6e:
+    resolution: {integrity: sha512-p/zAvxE8cSFMUNPbnw/kEp48hJlC9R5+9YtAMnkH0nSRi8Aj50l4w4llTcnjCC4nRbD3z/1jp9qT/oqrkj0AqQ==}
+    peerDependencies:
+      '@effect/platform': ^0.43.11
+      effect: ^2.2.5
+      next: '>=13 <15'
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      '@effect/rpc': 0.26.18_7p7syks3dfg4tytifztovdrqnq
+      '@effect/rpc-http': 0.25.25_mcpil35ckndqlsdekfzd5iyb6e
+      effect: 2.4.0
+    transitivePeerDependencies:
+      - '@effect/schema'
+    dev: false
+
+  /@effect/rpc-workers/0.25.25_mcpil35ckndqlsdekfzd5iyb6e:
+    resolution: {integrity: sha512-HT3pvHX+lgq/pICv5Aw1Uju3QUlEZpdPgc25FnabdZS0ESl9KyyODVHn4CMj6j746N9A8oA+4PUBdELXfd6jcQ==}
+    peerDependencies:
+      '@effect/platform': ^0.43.11
+      '@effect/schema': ^0.61.7
+      effect: ^2.2.5
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      '@effect/rpc': 0.26.18_7p7syks3dfg4tytifztovdrqnq
+      '@effect/schema': 0.63.1_effect@2.4.0
+      effect: 2.4.0
+    dev: false
+
+  /@effect/rpc/0.26.18_7p7syks3dfg4tytifztovdrqnq:
+    resolution: {integrity: sha512-Li4sgwuPd/UqpUbdCW0P16n3W4ermYhR4ZVWlaArzFs0AcQVQFD1Su86Dg4aAaxq4ICSZRXEJ0dsCHBnT+F/Dg==}
+    peerDependencies:
+      '@effect/schema': ^0.61.7
+      effect: ^2.2.5
+    dependencies:
+      '@effect/schema': 0.63.1_effect@2.4.0
+      effect: 2.4.0
+    dev: false
+
+  /@effect/rpc/0.27.17_mcpil35ckndqlsdekfzd5iyb6e:
+    resolution: {integrity: sha512-1SmXcbRy7wG+TPHNqM0g723q3RgylBsdfwM1fr1b7mInYg+4YBCvdqna7YXE31phzxrWXR4N7CqxfC+jGUrpNg==}
+    peerDependencies:
+      '@effect/platform': ^0.46.2
+      '@effect/schema': ^0.63.1
+      effect: ^2.4.0
+    dependencies:
+      '@effect/platform': 0.46.2_7p7syks3dfg4tytifztovdrqnq
+      '@effect/schema': 0.63.1_effect@2.4.0
+      effect: 2.4.0
+    dev: false
+
+  /@effect/schema/0.63.1_effect@2.4.0:
+    resolution: {integrity: sha512-Vs7g72qbPTLWXZ4jcaPzprfbY1ODZxwqfOTrMhwvSUc6kgt1i2KP88LxFy7dFLJasx3CYPz8MTvP0x8mbBCftw==}
+    peerDependencies:
+      effect: ^2.4.0
+      fast-check: ^3.13.2
+    dependencies:
+      effect: 2.4.0
+    dev: false
+
+  /@effect/typeclass/0.23.0_effect@2.4.0:
+    resolution: {integrity: sha512-AqQh9ZkHEx0RP8PBccXxSAe+yDenXcVivzFcgeboW7dRw9Rp6GCKDssEoNySh3kC0uAXweVh2Ycz8Ynbax22Ug==}
+    peerDependencies:
+      effect: ^2.4.0
+    dependencies:
+      effect: 2.4.0
+    dev: false
+
+  /@msgpackr-extract/msgpackr-extract-darwin-arm64/3.0.2:
+    resolution: {integrity: sha512-9bfjwDxIDWmmOKusUcqdS4Rw+SETlp9Dy39Xui9BEGEk19dDwH0jhipwFzEff/pFg95NKymc6TOTbRKcWeRqyQ==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@msgpackr-extract/msgpackr-extract-darwin-x64/3.0.2:
+    resolution: {integrity: sha512-lwriRAHm1Yg4iDf23Oxm9n/t5Zpw1lVnxYU3HnJPTi2lJRkKTrps1KVgvL6m7WvmhYVt/FIsssWay+k45QHeuw==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@msgpackr-extract/msgpackr-extract-linux-arm/3.0.2:
+    resolution: {integrity: sha512-MOI9Dlfrpi2Cuc7i5dXdxPbFIgbDBGgKR5F2yWEa6FVEtSWncfVNKW5AKjImAQ6CZlBK9tympdsZJ2xThBiWWA==}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@msgpackr-extract/msgpackr-extract-linux-arm64/3.0.2:
+    resolution: {integrity: sha512-FU20Bo66/f7He9Fp9sP2zaJ1Q8L9uLPZQDub/WlUip78JlPeMbVL8546HbZfcW9LNciEXc8d+tThSJjSC+tmsg==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@msgpackr-extract/msgpackr-extract-linux-x64/3.0.2:
+    resolution: {integrity: sha512-gsWNDCklNy7Ajk0vBBf9jEx04RUxuDQfBse918Ww+Qb9HCPoGzS+XJTLe96iN3BVK7grnLiYghP/M4L8VsaHeA==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@msgpackr-extract/msgpackr-extract-win32-x64/3.0.2:
+    resolution: {integrity: sha512-O+6Gs8UeDbyFpbSh2CPEz/UOrrdWPTBYNblZK5CxxLisYt4kGX3Sc+czffFonyjiGSq3jWLwJS/CCJc7tBr4sQ==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@opentelemetry/core/1.21.0:
+    resolution: {integrity: sha512-KP+OIweb3wYoP7qTYL/j5IpOlu52uxBv5M4+QhSmmUfLyTgu1OIS71msK3chFo1D6Y61BIH3wMiMYRCxJCQctA==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      '@opentelemetry/api': '>=1.0.0 <1.8.0'
+    dependencies:
+      '@opentelemetry/semantic-conventions': 1.21.0
+    dev: false
+
+  /@opentelemetry/resources/1.21.0:
+    resolution: {integrity: sha512-1Z86FUxPKL6zWVy2LdhueEGl9AHDJcx+bvHStxomruz6Whd02mE3lNUMjVJ+FGRoktx/xYQcxccYb03DiUP6Yw==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      '@opentelemetry/api': '>=1.0.0 <1.8.0'
+    dependencies:
+      '@opentelemetry/core': 1.21.0
+      '@opentelemetry/semantic-conventions': 1.21.0
+    dev: false
+
+  /@opentelemetry/sdk-trace-base/1.21.0:
+    resolution: {integrity: sha512-yrElGX5Fv0umzp8Nxpta/XqU71+jCAyaLk34GmBzNcrW43nqbrqvdPs4gj4MVy/HcTjr6hifCDCYA3rMkajxxA==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      '@opentelemetry/api': '>=1.0.0 <1.8.0'
+    dependencies:
+      '@opentelemetry/core': 1.21.0
+      '@opentelemetry/resources': 1.21.0
+      '@opentelemetry/semantic-conventions': 1.21.0
+    dev: false
+
+  /@opentelemetry/semantic-conventions/1.21.0:
+    resolution: {integrity: sha512-lkC8kZYntxVKr7b8xmjCVUgE0a8xgDakPyDo9uSWavXPyYqLgYYGdEd2j8NxihRyb6UwpX3G/hFUF4/9q2V+/g==}
+    engines: {node: '>=14'}
+    dev: false
+
+  /@types/bun/1.0.8:
+    resolution: {integrity: sha512-E6UWZuN4ymAxzUBWVIGDHJ3Zey7I8cMzDZ+cB1BqhZsmd1uPb9iAQzpWMruY1mKzsuD3R+dZPoBkZz8QL1KhSA==}
+    dependencies:
+      bun-types: 1.0.29
+    dev: true
+
+  /@types/node/20.11.22:
+    resolution: {integrity: sha512-/G+IxWxma6V3E+pqK1tSl2Fo1kl41pK1yeCyDsgkF9WlVAme4j5ISYM2zR11bgLFJGLN5sVK40T4RJNuiZbEjA==}
+    dependencies:
+      undici-types: 5.26.5
+    dev: true
+
+  /@types/ws/8.5.10:
+    resolution: {integrity: sha512-vmQSUcfalpIq0R9q7uTo2lXs6eGIpt9wtnLdMv9LVpIjCA/+ufZRozlVoVelIYixx1ugCBKDhn89vnsEGOCx9A==}
+    dependencies:
+      '@types/node': 20.11.22
+    dev: true
+
+  /bun-types/1.0.29:
+    resolution: {integrity: sha512-Z+U1ORr/2UCwxelIZxE83pyPLclviYL9UewQCNEUmGeLObY8ao+3WF3D8N1+NMv2+S+hUWsdBJam+4GoPEz35g==}
+    dependencies:
+      '@types/node': 20.11.22
+      '@types/ws': 8.5.10
+    dev: true
+
+  /chalk/5.3.0:
+    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: false
+
+  /effect/2.4.0:
+    resolution: {integrity: sha512-HAtFVAbAGYDzfGbrSrX1gzMzXym15zk1+ps72X8W1wdZY0vxq+u23w8u9DhAZjiJPHT4W9ZYL7QWQqpP4t+dSg==}
+    dev: false
+
+  /fast-decode-uri-component/1.0.1:
+    resolution: {integrity: sha512-WKgKWg5eUxvRZGwW8FvfbaH7AXSh2cL+3j5fMGzUMCxWBJ3dV3a7Wz8y2f/uQ0e3B6WmodD3oS54jTQ9HVTIIg==}
+    dev: false
+
+  /fast-querystring/1.1.2:
+    resolution: {integrity: sha512-g6KuKWmFXc0fID8WWH0jit4g0AGBoJhCkJMb1RmbsSEUNvQ+ZC8D6CUZ+GtF8nMzSPXnhiePyyqqipzNNEnHjg==}
+    dependencies:
+      fast-decode-uri-component: 1.0.1
+    dev: false
+
+  /find-my-way-ts/0.1.1:
+    resolution: {integrity: sha512-nXUdq29JRQ1tYa1/n+DHTVChMARJHz+gi7sDZibwQukzHP7Hrr6s+sxKbaIM8xB3LzhSBJy5yLb0JhIUmHmOiA==}
+    dependencies:
+      fast-querystring: 1.1.2
+    dev: false
+
+  /ini/4.1.1:
+    resolution: {integrity: sha512-QQnnxNyfvmHFIsj7gkPcYymR8Jdw/o7mp5ZFihxn6h8Ci6fh3Dx4E1gPjpQEpIuPo9XVNY/ZUwh4BPMjGyL01g==}
+    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    dev: false
+
+  /isomorphic-ws/5.0.0_ws@8.16.0:
+    resolution: {integrity: sha512-muId7Zzn9ywDsyXgTIafTry2sV3nySZeUDe6YedVd1Hvuuep5AsIlqK+XefWpYTyJG5e503F2xIuT2lcU6rCSw==}
+    peerDependencies:
+      ws: '*'
+    dependencies:
+      ws: 8.16.0
+    dev: false
+
+  /meow/13.2.0:
+    resolution: {integrity: sha512-pxQJQzB6djGPXh08dacEloMFopsOqGVRKFPYvPOt9XDZ1HasbgDZA74CJGreSU4G3Ak7EFJGoiH2auq+yXISgA==}
+    engines: {node: '>=18'}
+    dev: false
+
+  /mime/3.0.0:
+    resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    dev: false
+
+  /msgpackr-extract/3.0.2:
+    resolution: {integrity: sha512-SdzXp4kD/Qf8agZ9+iTu6eql0m3kWm1A2y1hkpTeVNENutaB0BwHlSvAIaMxwntmRUAUjon2V4L8Z/njd0Ct8A==}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      node-gyp-build-optional-packages: 5.0.7
+    optionalDependencies:
+      '@msgpackr-extract/msgpackr-extract-darwin-arm64': 3.0.2
+      '@msgpackr-extract/msgpackr-extract-darwin-x64': 3.0.2
+      '@msgpackr-extract/msgpackr-extract-linux-arm': 3.0.2
+      '@msgpackr-extract/msgpackr-extract-linux-arm64': 3.0.2
+      '@msgpackr-extract/msgpackr-extract-linux-x64': 3.0.2
+      '@msgpackr-extract/msgpackr-extract-win32-x64': 3.0.2
+    dev: false
+    optional: true
+
+  /msgpackr/1.10.1:
+    resolution: {integrity: sha512-r5VRLv9qouXuLiIBrLpl2d5ZvPt8svdQTl5/vMvE4nzDMyEX4sgW5yWhuBBj5UmgwOTWj8CIdSXn5sAfsHAWIQ==}
+    optionalDependencies:
+      msgpackr-extract: 3.0.2
+    dev: false
+
+  /multipasta/0.1.21:
+    resolution: {integrity: sha512-HpF9156uifsQu1L8KKW1EqXIt3DacHJTzQ+JSm6IShkcyyf+krOWzfOgT3OLHzesM40hbs6/QW5CJWSEdDPQag==}
+    dev: false
+
+  /node-gyp-build-optional-packages/5.0.7:
+    resolution: {integrity: sha512-YlCCc6Wffkx0kHkmam79GKvDQ6x+QZkMjFGrIMxgFNILFvGSbCp2fCBC55pGTT9gVaz8Na5CLmxt/urtzRv36w==}
+    hasBin: true
+    dev: false
+    optional: true
+
+  /path-browserify/1.0.1:
+    resolution: {integrity: sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==}
+    dev: false
+
+  /toml/3.0.0:
+    resolution: {integrity: sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==}
+    dev: false
+
+  /undici-types/5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+    dev: true
+
+  /ws/8.16.0:
+    resolution: {integrity: sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: false
+
+  /yaml/2.4.0:
+    resolution: {integrity: sha512-j9iR8g+/t0lArF4V6NE/QCfT+CO7iLqrXAHZbJdo+LfjqP1vR8Fg5bSiaq6Q2lOD1AUEVrEVIgABvBFYojJVYQ==}
+    engines: {node: '>= 14'}
+    hasBin: true
+    dev: false

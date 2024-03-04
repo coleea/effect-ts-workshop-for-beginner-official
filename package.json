@@ -33,6 +33,7 @@
     "ws": "^8.16.0"
   },
   "scripts": {
+    "exercise": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/exercise/test.ts",
     "pad": "bun run src/pad.ts",
     "1-s-1": "bun run src/part1-basics/snippets/1-what-is-a-program.js",
     "1-s-2": "bun run src/part1-basics/snippets/2-are-functions-programs.js",
