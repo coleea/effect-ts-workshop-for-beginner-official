@@ -24,9 +24,16 @@ Follow me on [Twitter](https://twitter.com/ethanniser) and [YouTube](https://www
 
 ## Podcasts
 - [Happy Path Programming - TypeScript & Effects with Michael Arnaldi](https://podcasters.spotify.com/pod/show/happypathprogramming/episodes/81-TypeScript--Effects-with-Michael-Arnaldi-e26d91o)
-
-
 - [The Developers' Bakery - Effect with Michael Arnaldi](https://thebakery.dev/67/)
+
+
+
+## Reading Material
+- [ybogomolov.me : Intro To Effect, Part 5: Software Transactional Memory in Effect](https://ybogomolov.me/05-effect-stm)
+- [ybogomolov.me : Intro To Effect, Part 4: Concurrency in Effect](https://ybogomolov.me/04-effect-concurrency)
+- [ybogomolov.me : Intro To Effect, Part 3: Managing Dependencies](https://ybogomolov.me/03-effect-managing-dependencies)
+- [ybogomolov.me : Intro To Effect, Part 2: Handling Errors](https://ybogomolov.me/02-effect-handling-errors)
+- [ybogomolov.me : Intro To Effect, Part 1: What Is Effect?](https://ybogomolov.me/01-effect-intro)
 
 
 
