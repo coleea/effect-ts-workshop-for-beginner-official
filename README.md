@@ -6,8 +6,31 @@ Follow me on [Twitter](https://twitter.com/ethanniser) and [YouTube](https://www
 
 - [Effect API Docs](https://effect-ts.github.io/effect/)
 - [Effect Docs](https://effect.website/)
-- [Effect Source](https://github.com/Effect-TS/effect)
+- [Effect Official Repository](https://github.com/Effect-TS/effect)
 - [Effect Discord](https://discord.gg/effect-ts)
+
+
+## Videos 
+- [Effect Official Youtube Channel](https://www.youtube.com/@effect-ts/videos)
+- [Introduction to Effect by Michael Arnaldi in Worker Conf](https://www.youtube.com/watch?v=zrNr3JVUc8I)
+- [Michael Arnaldi introduce Effect-ts in TypeScript Berlin Meetup](https://www.youtube.com/watch?v=Oy7fr2_WBFI)
+- [WHY EFFECT? BY MICHAEL ARNALDI in Effect Meetup (SAN FRANCISCO)](https://www.youtube.com/watch?v=BqUnsDnMnMo)
+- [Functional Effect Systems To The Rescue by Michael Arnaldi](https://www.youtube.com/watch?v=Ol1VTFt2FTQ)
+- [Lambda Lounge Jan - Effect TS by Michael Arnaldi](https://www.youtube.com/watch?v=LhCPPrxUUNM)
+- [Michael Arnaldi interview with Ihar Abukhouski ](https://www.youtube.com/watch?v=7EblTlnqRLM)
+- [ZIO as a Language by Michael Arnaldi ](https://www.youtube.com/watch?v=6plVvxZ2rsM)
+- [Effect: Next-Generation Typescript by Ethan Niser](https://www.youtube.com/watch?v=SloZE4i4Zfk)
+- [Effect for Beginners by Ethan Niser](https://www.youtube.com/watch?v=fTN8BX5qj6s)
+
+## Podcasts
+- [Happy Path Programming - TypeScript & Effects with Michael Arnaldi](https://podcasters.spotify.com/pod/show/happypathprogramming/episodes/81-TypeScript--Effects-with-Michael-Arnaldi-e26d91o)
+
+
+- [The Developers' Bakery - Effect with Michael Arnaldi](https://thebakery.dev/67/)
+
+
+
+
 
 ## REQUIREMENTS:
 
