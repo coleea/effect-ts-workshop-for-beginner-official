@@ -1,6 +1,14 @@
-# Effect Beginner/Intermediate Workshop By Ethan Niser
+# Effect Workshop & Crash Course
 
-Follow me on [Twitter](https://twitter.com/ethanniser) and [YouTube](https://www.youtube.com/@ethanniser)
+By Ethan Niser & maxwell brown & Stefano Pigozzi
+
+
+## Original Repos 
+- [Ethan Niser - effect-workshop](https://github.com/ethanniser/effect-workshop)
+- [Maxwell Brown - advanced-effect-workshop](https://github.com/IMax153/advanced-effect-workshop)
+- [Stefano Pigozzi - effect-crashcourse](https://github.com/pigoz/effect-crashcourse)
+
+
 
 ## USEFUL LINKS
 
