@@ -1,8 +1,8 @@
-# Effect Workshop & Crash Course
+# Effect Workshop & Crash Course & Learning Resources
 
 By Ethan Niser & maxwell brown & Stefano Pigozzi
 
-Check `/src/every-tutorials` folder. in this files, there are some example code and comments.
+Check `/src/every-tutorials` folder. in this files, there are some example code and comments. These codes are the best resource I've found for learning effect-ts.
 
 
 ## Original Repos 
@@ -10,17 +10,18 @@ Check `/src/every-tutorials` folder. in this files, there are some example code 
 - [Maxwell Brown - advanced-effect-workshop](https://github.com/IMax153/advanced-effect-workshop)
 - [Stefano Pigozzi - effect-crashcourse](https://github.com/pigoz/effect-crashcourse)
 - [Official Repo's readme.md files](https://github.com/Effect-TS/effect)
+- [fp-ts Official Repo](https://github.com/gcanti/fp-ts)
 
 
-## USEFUL LINKS
+## Useful Links
 
-- [Effect API Docs](https://effect-ts.github.io/effect/)
 - [Effect Docs](https://effect.website/)
+- [Effect API Docs](https://effect-ts.github.io/effect/) - There is no detailed description here and it will be used to verify the type signature
 - [Effect Official Repository](https://github.com/Effect-TS/effect)
 - [Effect Discord](https://discord.gg/effect-ts)
 
 
-## Videos 
+## Videos - introduction to Effect
 - [Effect Official Youtube Channel](https://www.youtube.com/@effect-ts/videos)
 - [Introduction to Effect by Michael Arnaldi in Worker Conf](https://www.youtube.com/watch?v=zrNr3JVUc8I)
 - [Michael Arnaldi introduce Effect-ts in TypeScript Berlin Meetup](https://www.youtube.com/watch?v=Oy7fr2_WBFI)
@@ -29,21 +30,69 @@ Check `/src/every-tutorials` folder. in this files, there are some example code 
 - [Lambda Lounge Jan - Effect TS by Michael Arnaldi](https://www.youtube.com/watch?v=LhCPPrxUUNM)
 - [Michael Arnaldi interview with Ihar Abukhouski ](https://www.youtube.com/watch?v=7EblTlnqRLM)
 - [ZIO as a Language by Michael Arnaldi ](https://www.youtube.com/watch?v=6plVvxZ2rsM)
-- [Effect: Next-Generation Typescript by Ethan Niser](https://www.youtube.com/watch?v=SloZE4i4Zfk)
-- [Effect for Beginners by Ethan Niser](https://www.youtube.com/watch?v=fTN8BX5qj6s)
 
-## Podcasts
+## Podcasts - introduction to Effect
 - [Happy Path Programming - TypeScript & Effects with Michael Arnaldi](https://podcasters.spotify.com/pod/show/happypathprogramming/episodes/81-TypeScript--Effects-with-Michael-Arnaldi-e26d91o)
 - [The Developers' Bakery - Effect with Michael Arnaldi](https://thebakery.dev/67/)
 
 
+## Videos - tutorial for beginner 
+- [Effect: Next-Generation Typescript by Ethan Niser](https://www.youtube.com/watch?v=SloZE4i4Zfk)
+- [Effect for Beginners by Ethan Niser](https://www.youtube.com/watch?v=fTN8BX5qj6s)
 
-## Reading Material
+
+
+## Learning Material
 - [ybogomolov.me : Intro To Effect, Part 5: Software Transactional Memory in Effect](https://ybogomolov.me/05-effect-stm)
 - [ybogomolov.me : Intro To Effect, Part 4: Concurrency in Effect](https://ybogomolov.me/04-effect-concurrency)
 - [ybogomolov.me : Intro To Effect, Part 3: Managing Dependencies](https://ybogomolov.me/03-effect-managing-dependencies)
 - [ybogomolov.me : Intro To Effect, Part 2: Handling Errors](https://ybogomolov.me/02-effect-handling-errors)
 - [ybogomolov.me : Intro To Effect, Part 1: What Is Effect?](https://ybogomolov.me/01-effect-intro)
+
+
+## fp-ts learning material
+
+It is also helpful to learn fp-ts because fp-ts is the core library of effect-ts implementation.
+
+- [Functional Programming with TypeScript](https://www.youtube.com/playlist?list=PLuPevXgCPUIMbCxBEnc1dNwboH6e2ImQo) by Sahand Javid
+- [fp-ts Tutorial series on YouTube](https://www.youtube.com/playlist?list=PLUMXrUa_EuePN94nJ2hAui5nWDj8RO3lH) by [@MrFunctor](https://github.com/MrFunctor)
+
+#### Functional design series
+
+- [Combinators Part I](https://dev.to/gcanti/functional-design-combinators-14pn)
+- [Combinators Part II](https://dev.to/gcanti/functional-design-how-to-make-the-time-combinator-more-general-3fge)
+- [Tagless final](https://dev.to/gcanti/functional-design-tagless-final-332k)
+- [Smart constructors](https://dev.to/gcanti/functional-design-smart-constructors-14nb)
+- [Introduction to property based testing](https://dev.to/gcanti/introduction-to-property-based-testing-17nk)
+- [Algebraic Data Types](https://dev.to/gcanti/functional-design-algebraic-data-types-36kf)
+
+#### code examples (Advanced)
+
+- "`fp-ts` to the max" (TypeScript port of John De Goes's ["FP to the max"](https://www.youtube.com/watch?v=sxudIMiOo68) in Scala)
+  - [Part I](https://github.com/gcanti/fp-ts/blob/master/examples/fp-ts-to-the-max-I.ts)
+  - [Part II](https://github.com/gcanti/fp-ts/blob/master/examples/fp-ts-to-the-max-II.ts)
+
+#### Community documentation
+
+- [fp-ts recipes](https://grossbart.github.io/fp-ts-recipes/) – A collection of practical recipes for working with `fp-ts`
+- [Mostly adequate guide to FP-TS](https://cjonas.gitbook.io/mostly-adequate-fp-ts/) partial rewrite by ChuckJonas
+- [Book: Introduction to Functional Programming by Giulio Canti](https://github.com/enricopolanski/functional-programming) English translation by Enrico Polanski
+
+
+#### Community Blog Posts
+
+- [When An Error Is Not An Exception](https://dev.to/vncz/forewords-and-domain-model-1p13) — How we rewrote the core of Prism to make it almost totally functional
+- [Introduction series to FP-TS](https://ybogomolov.me/01-higher-kinded-types/) by Yuriy Bogomolov
+- [The ReaderTaskMonad](https://andywhite.xyz/posts/) by Andy White
+- [FP-TS for HTTP-requests](https://kimmosaaskilahti.fi/blog/2019/08/29/using-fp-ts-for-http-requests-and-validation/) by Kimmo Sasskilahti
+- [Basic introduction to FP-TS](https://davetayls.me/blog/2018/06/09/fp-ts-02-handling-error-cases) by Dave Tayls
+- [Practical guide to FP-TS](https://rlee.dev/practical-guide-to-fp-ts-part-1) by Ryan Lee
+
+[Reference : fp-ts official repo](https://raw.githubusercontent.com/gcanti/fp-ts/master/docs/learning-resources.md)
+
+
+
+
 
 
 
