@@ -2,12 +2,14 @@
 
 By Ethan Niser & maxwell brown & Stefano Pigozzi
 
+Check `/src/every-tutorials` folder. in this files, there are some example code and comments.
+
 
 ## Original Repos 
 - [Ethan Niser - effect-workshop](https://github.com/ethanniser/effect-workshop)
 - [Maxwell Brown - advanced-effect-workshop](https://github.com/IMax153/advanced-effect-workshop)
 - [Stefano Pigozzi - effect-crashcourse](https://github.com/pigoz/effect-crashcourse)
-
+- [Official Repo's readme.md files](https://github.com/Effect-TS/effect)
 
 
 ## USEFUL LINKS
